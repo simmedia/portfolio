@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 29px;
+  color: #575757;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn {
+  padding: 14px 30px;
+  border-radius: 10rem;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #6e4799;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.btn:active {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: 0rem 0.1rem 1.2rem rgba(51, 51, 51, 0.1);
+          box-shadow: 0rem 0.1rem 1.2rem rgba(51, 51, 51, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .nav {
+  line-height: 70px;
+  width: 1260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar .nav .nav-list li {
+  padding: 0px 15px;
+}
+
+.navbar .nav .nav-list li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 700;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.navbar .nav .nav-list li a:hover {
+  color: #6e4799;
+}
+
+header {
+  width: 1260px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
+}
+
+header .jumbotron {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+header .jumbotron h1 {
+  font-size: 67px;
+  line-height: 87px;
+  font-weight: 200;
+  color: #333;
+}
+
+header .jumbotron h1 span {
+  font-weight: 600;
+  color: #6e4799;
+}
+
+header .jumbotron p {
+  margin-bottom: 40px;
+}
+
+header img {
+  width: 60%;
+  padding-top: 100px;
+}
+/*# sourceMappingURL=style.css.map */
